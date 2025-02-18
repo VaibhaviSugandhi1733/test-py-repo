@@ -46,7 +46,7 @@ def submit():
 		file.write(f"Course: {course}\n")
 		file.write(f"Query: {query}\n")
 		file.write(f"Email: {email}\n")
-	return f"Query Submitted! '{email}' has been SUCCESSFULLY created"
+	return f"Query Submitted! '{filename}' has been SUCCESSFULLY created"
 
 if __name__ == '__main__':
     app.run()
